@@ -1,0 +1,2753 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: #28293E;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: blueviolet;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 1, 0.8);
+}
+
+
+
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* UTILIDADES */
+img
+{
+    max-width: 100%;
+}
+.contenedor
+{
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+/* MIS ESTILOS */
+
+.containerHeader
+{
+    height: 100vh;
+    background: #28293E;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.containMain
+{
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr) ;
+    width: 100%;
+    gap: 8rem;
+    position: absolute;
+    z-index: 1;
+}
+.containMain .item
+{
+}
+.item h1
+{
+    font-family: "Lato";
+    font-weight: lighter;
+    line-height: 4rem;
+    font-size: 2.6rem;
+    text-transform: capitalize;
+    color: #FFF;
+}
+.item p
+{
+    font-size: 16px;
+    color:#FFF;
+    font-family: "Lato";
+    line-height: 2rem;
+    margin: 2rem 0;
+}
+.item button
+{
+    width: 10rem;
+    height: 3rem;
+    background: transparent;
+    font-family: "Lato";
+    text-transform: uppercase;
+    color:#FFF;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+.item:nth-of-type(2)
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Info */
+
+.info{
+    background: #FDF0E9;
+    padding: 50px;
+    text-align: center;
+}
+
+.titulo-left{
+    height: 30px;
+    color: red;
+}
+
+
+
+/*.main-wrap{
+    width: 100%;
+    background: #fff;
+}
+.footer-wrap{
+    position: relative;
+    width:100%;
+    padding:40px;
+    background: rgb(46, 44, 44);
+}
+.footer-wrap-1{
+    display: flex;
+}
+.footer-section{
+    width:22%;
+    display:block;
+    padding:10px 35px;
+}
+.footer-section:last-of-type{
+    width:34%;
+}
+.footer-section p{
+    color:#fff;
+    font-size: 16px;
+}
+.footer-section h1{
+    font-size:22px;
+    color:#fff;
+    margin-bottom:8px;
+}
+.footer-section a{
+    color:#fff;
+    display: block;
+    text-decoration: none;
+    padding:4px 0px;
+}
+form{
+    position:relative;
+}
+form input{
+    position:absolute;
+    height:35px;
+    width: 220px;
+    margin:8px 0px;
+    border:none;
+    outline:none;
+    padding:6px;
+    font-size:14px;
+}
+form .btn{
+    height:35px;
+    background:rgb(79, 156, 69);
+    border:none;
+    padding:0px 6px;
+    margin:8px 0px;
+    position:absolute;
+    left:60%;
+    font-weight: 600;
+    cursor: pointer;
+    color:#fff;
+}
+.btn:hover{
+    background: rgb(107,204,94);
+}
+.line{
+    margin-top:20px;
+    width:100%;
+    height:1px;;
+    background: rgb(143, 142, 142);
+}
+.social-link{
+    padding-top:25px;
+    text-align: center;
+}
+.social-link a{
+    text-decoration: none;
+    height:26px;
+    display: inline-block;
+    width:26px;
+    padding:5px;
+    border-radius:20px;
+    margin:5px;
+    background: rgb(224, 222, 222);
+}
+.social-link a img{
+    width:14px;
+    height:14px;
+}
+.footer-bottom{
+    background: rgb(12, 12, 12);
+    width:100%;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom a{
+    color:#fff;
+    font-size:14px;
+    margin-left:20px;
+    text-decoration:none;
+}
+.first-box{
+    margin-left: 20px;
+}
+.last-box{
+    margin-right:20px;
+}*/
+
+
+#Web_1366__1 {
+    position: absolute;
+    width: 1349px;
+    height: 8214px;
+    background-color: rgba(40,41,62,1);
+    overflow: hidden;
+    --web-view-name: Web 1366 – 1;
+    --web-view-id: Web_1366__1;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+#Rectngulo_13 {
+    fill: rgba(253,240,233,1);
+}
+.Rectngulo_13 {
+    position: absolute;
+    overflow: visible;
+    width: 1366px;
+    height: 388px;
+    left: 0px;
+    top: 0px;
+}
+#Tienda {
+    left: 83px;
+    top: 430px;
+    position: absolute;
+    overflow: visible;
+    width: 60px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Dispositivos_mviles_en_venta {
+    left: 80px;
+    top: 477px;
+    position: absolute;
+    overflow: visible;
+    width: 462px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color: rgba(112,112,112,1);
+}
+#Componente_1__1 {
+    position: absolute;
+    width: 101px;
+    height: 28px;
+    left: 1178px;
+    top: 487px;
+    overflow: visible;
+}
+#Rectngulo_1 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_1 {
+    position: absolute;
+    overflow: visible;
+    width: 101px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+}
+#Ver_mas_ {
+    left: 17px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 69px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(112,112,112,1);
+}
+#Rectngulo_5 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_5 {
+    position: absolute;
+    overflow: visible;
+    width: 402px;
+    height: 497px;
+    left: 80px;
+    top: 559px;
+}
+#Rectngulo_7 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_7 {
+    position: absolute;
+    overflow: visible;
+    width: 402px;
+    height: 497px;
+    left: 482px;
+    top: 559px;
+}
+#Rectngulo_9 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_9 {
+    position: absolute;
+    overflow: visible;
+    width: 402px;
+    height: 497px;
+    left: 884px;
+    top: 559px;
+}
+#Rectngulo_11 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_11 {
+    position: absolute;
+    overflow: visible;
+    width: 505px;
+    height: 260px;
+    left: 178px;
+    top: 20px;
+}
+#Cotizaciones {
+    left: 270px;
+    top: 52px;
+    position: absolute;
+    overflow: visible;
+    width: 178px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(94,147,193,1);
+}
+#icono-precio-criptomonedas {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 201px;
+    top: 47px;
+    overflow: visible;
+}
+#Reparacin_de_celulares_ANDROID {
+    left: 201px;
+    top: 107px;
+    position: absolute;
+    overflow: visible;
+    width: 408px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(94,147,193,1);
+}
+#Rectngulo_12 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_12 {
+    position: absolute;
+    overflow: visible;
+    width: 505px;
+    height: 260px;
+    left: 683px;
+    top: 20px;
+}
+#icono-precio-criptomonedas_u {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 709px;
+    top: 47px;
+    overflow: visible;
+}
+#Cotizaciones_v {
+    left: 778px;
+    top: 52px;
+    position: absolute;
+    overflow: visible;
+    width: 178px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(94,147,193,1);
+}
+#Si_necesitas_un_equipo_nuevo_u {
+    left: 709px;
+    top: 107px;
+    position: absolute;
+    overflow: visible;
+    width: 457px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(94,147,193,1);
+}
+#Rectngulo_14 {
+    fill: rgba(253,240,233,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_14 {
+    position: absolute;
+    overflow: visible;
+    width: 1366px;
+    height: 940px;
+    left: 0px;
+    top: 1194px;
+}
+#Captura_de_pantalla_2022-03-01 {
+    position: absolute;
+    width: 616.555px;
+    height: 609.399px;
+    left: 25.449px;
+    top: 1216px;
+    overflow: visible;
+}
+#Ernesto_Chacon {
+    left: 718px;
+    top: 1322px;
+    position: absolute;
+    overflow: visible;
+    width: 138px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Soporte_tcnico_y_reparacin_de_ {
+    left: 721px;
+    top: 1349px;
+    position: absolute;
+    overflow: visible;
+    width: 508px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(112,112,112,1);
+}
+#Recuerda_que_contamos_con_un_l {
+    left: 725px;
+    top: 1492px;
+    position: absolute;
+    overflow: visible;
+    width: 532px;
+    height: 180px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Rectngulo_15 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_15 {
+    position: absolute;
+    overflow: visible;
+    width: 160px;
+    height: 35px;
+    left: 721px;
+    top: 1672px;
+}
+#Mas_informacin_ {
+    left: 732px;
+    top: 1678px;
+    position: absolute;
+    overflow: visible;
+    width: 139px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(112,112,112,1);
+}
+#Rectngulo_16 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_16 {
+    position: absolute;
+    overflow: visible;
+    width: 620px;
+    height: 197px;
+    left: 642px;
+    top: 1830px;
+}
+#n_5 {
+    left: 743px;
+    top: 1862px;
+    position: absolute;
+    overflow: visible;
+    width: 72px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(0,0,0,1);
+}
+#Porcentaje_de_reparaciones_com {
+    left: 659px;
+    top: 1947px;
+    position: absolute;
+    overflow: visible;
+    width: 481px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+}
+#Rectngulo_17 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_17 {
+    position: absolute;
+    overflow: visible;
+    width: 542px;
+    height: 197px;
+    left: 100px;
+    top: 1830px;
+}
+#n_8 {
+    left: 208px;
+    top: 1862px;
+    position: absolute;
+    overflow: visible;
+    width: 72px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(0,0,0,1);
+}
+#Porcentaje_de_clientes_satisfe {
+    left: 122px;
+    top: 1947px;
+    position: absolute;
+    overflow: visible;
+    width: 393px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+}
+#Captura_de_pantalla_2022-03-01_ba {
+    position: absolute;
+    width: 548px;
+    height: 578px;
+    left: 685px;
+    top: 2200px;
+    overflow: visible;
+}
+#CYBERTOWN {
+    left: 100px;
+    top: 2282px;
+    position: absolute;
+    overflow: visible;
+    width: 124px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255,248,248,1);
+}
+#Agenda_tu_cita {
+    left: 100px;
+    top: 2319px;
+    position: absolute;
+    overflow: visible;
+    width: 310px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgba(242,239,239,1);
+}
+#Cuando_tengas_un_momento_libre {
+    left: 100px;
+    top: 2399px;
+    position: absolute;
+    overflow: visible;
+    width: 484px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(252,251,251,1);
+}
+#Trazado_1 {
+    fill: rgba(249,229,218,1);
+    stroke: rgba(249,229,218,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Trazado_1 {
+    overflow: visible;
+    position: absolute;
+    width: 1366px;
+    height: 309px;
+    left: 0px;
+    top: 2883px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Captura_de_pantalla_2022-03-01_bf {
+    position: absolute;
+    width: 202px;
+    height: 163px;
+    left: 78px;
+    top: 2797px;
+    overflow: visible;
+}
+#Captura_de_pantalla_2022-03-01_bg {
+    position: absolute;
+    width: 378px;
+    height: 242px;
+    left: 944px;
+    top: 2928px;
+    overflow: visible;
+}
+#Cybertown {
+    left: 100px;
+    top: 2967px;
+    position: absolute;
+    overflow: visible;
+    width: 104px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(26,26,26,1);
+}
+#Expertos_en_reparacin_de_celul {
+    left: 100px;
+    top: 3009px;
+    position: absolute;
+    overflow: visible;
+    width: 271px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(26,26,26,1);
+}
+#Rectngulo_19 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_19 {
+    position: absolute;
+    overflow: visible;
+    width: 120px;
+    height: 30px;
+    left: 100px;
+    top: 3103px;
+}
+#Contactanos {
+    left: 107px;
+    top: 3106px;
+    position: absolute;
+    overflow: visible;
+    width: 106px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(26,26,26,1);
+}
+#Nuestros_tcnicos_son_los_ms_pr {
+    left: 458px;
+    top: 2972px;
+    position: absolute;
+    overflow: visible;
+    width: 422px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(26,26,26,1);
+}
+#Rectngulo_20 {
+    fill: rgba(253,240,233,1);
+    stroke: rgba(253,240,233,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_20 {
+    position: absolute;
+    overflow: visible;
+    width: 1366px;
+    height: 885px;
+    left: 0px;
+    top: 3189px;
+}
+#Testimonios {
+    left: 627px;
+    top: 3266px;
+    position: absolute;
+    overflow: visible;
+    width: 113px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(26,26,26,1);
+}
+#Lo_que_nuestros_clientes_dicen {
+    left: 384px;
+    top: 3313px;
+    position: absolute;
+    overflow: visible;
+    width: 599px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(26,26,26,1);
+}
+#Rectngulo_21 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_21 {
+    position: absolute;
+    overflow: visible;
+    width: 372px;
+    height: 408px;
+    left: 125px;
+    top: 3420px;
+}
+#Rectngulo_22 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_22 {
+    position: absolute;
+    overflow: visible;
+    width: 372px;
+    height: 408px;
+    left: 869px;
+    top: 3420px;
+}
+#Rectngulo_23 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_23 {
+    position: absolute;
+    overflow: visible;
+    width: 372px;
+    height: 438px;
+    left: 497px;
+    top: 3420px;
+}
+#El_mejor_servicio_de_todos_e_l {
+    left: 142px;
+    top: 3513px;
+    position: absolute;
+    overflow: visible;
+    width: 339px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(26,26,26,1);
+}
+#Siempre_muy_atentos_con_los_cl {
+    left: 515px;
+    top: 3513px;
+    position: absolute;
+    overflow: visible;
+    width: 295px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(26,26,26,1);
+}
+#Revieron_mi_celular_pens_que_n {
+    left: 892px;
+    top: 3513px;
+    position: absolute;
+    overflow: visible;
+    width: 322px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(26,26,26,1);
+}
+#Elipse_1 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 147px;
+    top: 3717px;
+    overflow: visible;
+}
+#Elipse_2 {
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 892px;
+    top: 3718px;
+    overflow: visible;
+}
+#Elipse_3 {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 515px;
+    top: 3730px;
+    overflow: visible;
+}
+#star-fill {
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 147px;
+    top: 3457px;
+    overflow: visible;
+}
+#Trazado_2 {
+    fill: rgba(0,0,0,1);
+}
+.Trazado_2 {
+    overflow: visible;
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Rectngulo_24 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_24 {
+    position: absolute;
+    overflow: visible;
+    width: 150px;
+    height: 40px;
+    left: 608px;
+    top: 3917px;
+}
+#Ver_mas {
+    left: 646px;
+    top: 3924px;
+    position: absolute;
+    overflow: visible;
+    width: 75px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(26,26,26,1);
+}
+#Venta_y_reparacin_de_celulares {
+    left: 144px;
+    top: 4220px;
+    position: absolute;
+    overflow: visible;
+    width: 298px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(228,217,217,1);
+}
+#CYBERTOWN_b {
+    left: 144px;
+    top: 4257px;
+    position: absolute;
+    overflow: visible;
+    width: 185px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(228,217,217,1);
+}
+#Agenda_una_cita_con_nosotros_p {
+    left: 144px;
+    top: 4337px;
+    position: absolute;
+    overflow: visible;
+    width: 494px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(228,217,217,1);
+}
+#star-fill_b {
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 175.5px;
+    top: 3457px;
+    overflow: visible;
+}
+#Trazado_2_b {
+    fill: rgba(0,0,0,1);
+}
+.Trazado_2_b {
+    overflow: visible;
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#star-fill_ca {
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 232.5px;
+    top: 3457px;
+    overflow: visible;
+}
+#Trazado_2_ca {
+    fill: rgba(0,0,0,1);
+}
+.Trazado_2_ca {
+    overflow: visible;
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#star-fill_cb {
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 204px;
+    top: 3457px;
+    overflow: visible;
+}
+#Trazado_2_cb {
+    fill: rgba(0,0,0,1);
+}
+.Trazado_2_cb {
+    overflow: visible;
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#star-fill_cc {
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 260.5px;
+    top: 3457px;
+    overflow: visible;
+}
+#Trazado_2_cc {
+    fill: rgba(0,0,0,1);
+}
+.Trazado_2_cc {
+    overflow: visible;
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#star-fill_cd {
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 515px;
+    top: 3457px;
+    overflow: visible;
+}
+#Trazado_2_ce {
+    fill: rgba(0,0,0,1);
+}
+.Trazado_2_ce {
+    overflow: visible;
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#star-fill_cf {
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 543px;
+    top: 3457px;
+    overflow: visible;
+}
+#Trazado_2_cg {
+    fill: rgba(0,0,0,1);
+}
+.Trazado_2_cg {
+    overflow: visible;
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#star-fill_ch {
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 571px;
+    top: 3457px;
+    overflow: visible;
+}
+#Trazado_2_ci {
+    fill: rgba(0,0,0,1);
+}
+.Trazado_2_ci {
+    overflow: visible;
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#star-fill_cj {
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 599px;
+    top: 3457px;
+    overflow: visible;
+}
+#Trazado_2_ck {
+    fill: rgba(0,0,0,1);
+}
+.Trazado_2_ck {
+    overflow: visible;
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#star-fill_cl {
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 627px;
+    top: 3457px;
+    overflow: visible;
+}
+#Trazado_2_cm {
+    fill: rgba(0,0,0,1);
+}
+.Trazado_2_cm {
+    overflow: visible;
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#star-fill_cn {
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 892px;
+    top: 3457px;
+    overflow: visible;
+}
+#Trazado_2_co {
+    fill: rgba(0,0,0,1);
+}
+.Trazado_2_co {
+    overflow: visible;
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#star-fill_cp {
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 920px;
+    top: 3457px;
+    overflow: visible;
+}
+#Trazado_2_cq {
+    fill: rgba(0,0,0,1);
+}
+.Trazado_2_cq {
+    overflow: visible;
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#star-fill_cr {
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 948px;
+    top: 3457px;
+    overflow: visible;
+}
+#Trazado_2_cs {
+    fill: rgba(0,0,0,1);
+}
+.Trazado_2_cs {
+    overflow: visible;
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#star-fill_ct {
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 976px;
+    top: 3457px;
+    overflow: visible;
+}
+#Trazado_2_cu {
+    fill: rgba(0,0,0,1);
+}
+.Trazado_2_cu {
+    overflow: visible;
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#star-fill_cv {
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 1004px;
+    top: 3457px;
+    overflow: visible;
+}
+#Trazado_2_cw {
+    fill: rgba(0,0,0,1);
+}
+.Trazado_2_cw {
+    overflow: visible;
+    position: absolute;
+    width: 25px;
+    height: 23.752px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Alejandra {
+    left: 233px;
+    top: 3730px;
+    position: absolute;
+    overflow: visible;
+    width: 114px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(228,217,217,1);
+}
+#profesora {
+    left: 233px;
+    top: 3768px;
+    position: absolute;
+    overflow: visible;
+    width: 91px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(228,217,217,1);
+}
+#Alejandra_cz {
+    left: 602px;
+    top: 3747px;
+    position: absolute;
+    overflow: visible;
+    width: 114px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(228,217,217,1);
+}
+#profesora_c {
+    left: 602px;
+    top: 3779px;
+    position: absolute;
+    overflow: visible;
+    width: 91px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(228,217,217,1);
+}
+#Alejandra_c {
+    left: 977px;
+    top: 3730px;
+    position: absolute;
+    overflow: visible;
+    width: 114px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(228,217,217,1);
+}
+#profesora_da {
+    left: 977px;
+    top: 3765px;
+    position: absolute;
+    overflow: visible;
+    width: 91px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(228,217,217,1);
+}
+#Grupo_1 {
+    position: absolute;
+    width: 500px;
+    height: 659px;
+    left: 727px;
+    top: 4234px;
+    overflow: visible;
+}
+#Rectngulo_46 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_46 {
+    position: absolute;
+    overflow: visible;
+    width: 500px;
+    height: 92px;
+    left: 0px;
+    top: 200px;
+}
+#Rectngulo_47 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_47 {
+    position: absolute;
+    overflow: visible;
+    width: 500px;
+    height: 92px;
+    left: 0px;
+    top: 292px;
+}
+#Rectngulo_48 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_48 {
+    position: absolute;
+    overflow: visible;
+    width: 500px;
+    height: 92px;
+    left: 0px;
+    top: 384px;
+}
+#Rectngulo_49 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_49 {
+    position: absolute;
+    overflow: visible;
+    width: 500px;
+    height: 92px;
+    left: 0px;
+    top: 475px;
+}
+#Trazado_3 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Trazado_3 {
+    overflow: visible;
+    position: absolute;
+    width: 500px;
+    height: 92px;
+    left: 0px;
+    top: 567px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Captura_de_pantalla_2022-03-01_c {
+    position: absolute;
+    width: 58px;
+    height: 53px;
+    left: 399px;
+    top: 220px;
+    overflow: visible;
+}
+#Captura_de_pantalla_2022-03-01_da {
+    position: absolute;
+    width: 58px;
+    height: 53px;
+    left: 399px;
+    top: 312px;
+    overflow: visible;
+}
+#Captura_de_pantalla_2022-03-01_db {
+    position: absolute;
+    width: 58px;
+    height: 53px;
+    left: 399px;
+    top: 403px;
+    overflow: visible;
+}
+#Captura_de_pantalla_2022-03-01_dc {
+    position: absolute;
+    width: 58px;
+    height: 53px;
+    left: 399px;
+    top: 495px;
+    overflow: visible;
+}
+#Captura_de_pantalla_2022-03-01_dd {
+    position: absolute;
+    width: 58px;
+    height: 53px;
+    left: 399px;
+    top: 591px;
+    overflow: visible;
+}
+#Reparaciones {
+    left: 25px;
+    top: 230px;
+    position: absolute;
+    overflow: visible;
+    width: 156px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(255,255,255,1);
+}
+#Promociones__ {
+    left: 25px;
+    top: 322px;
+    position: absolute;
+    overflow: visible;
+    width: 168px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(255,255,255,1);
+}
+#Rebajas__ {
+    left: 25px;
+    top: 413px;
+    position: absolute;
+    overflow: visible;
+    width: 104px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(255,255,255,1);
+}
+#Garanta__ {
+    left: 25px;
+    top: 505px;
+    position: absolute;
+    overflow: visible;
+    width: 115px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(255,255,255,1);
+}
+#Cotizaciones_di {
+    left: 25px;
+    top: 597px;
+    position: absolute;
+    overflow: visible;
+    width: 148px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(255,255,255,1);
+}
+#Rectngulo_50 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_50 {
+    position: absolute;
+    overflow: visible;
+    width: 500px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+}
+#Nuevos_artculos_ {
+    left: 25px;
+    top: 17px;
+    position: absolute;
+    overflow: visible;
+    width: 204px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(255,255,255,1);
+}
+#Dispositivos_mviles_tablets_y_ {
+    left: 25px;
+    top: 72px;
+    position: absolute;
+    overflow: visible;
+    width: 437px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#Captura_de_pantalla_2022-03-01_dm {
+    position: absolute;
+    width: 58px;
+    height: 52.423px;
+    left: 399px;
+    top: 7.577px;
+    overflow: visible;
+}
+#Contctanos_ {
+    left: 144px;
+    top: 4519px;
+    position: absolute;
+    overflow: visible;
+    width: 160px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(228,217,217,1);
+}
+#Captura_de_pantalla_2022-03-01_do {
+    position: absolute;
+    width: 1201px;
+    height: 106px;
+    left: 83px;
+    top: 4940px;
+    overflow: visible;
+}
+#Rectngulo_8 {
+    fill: rgba(253,240,233,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_8 {
+    position: absolute;
+    overflow: visible;
+    width: 1366px;
+    height: 1029px;
+    left: 0px;
+    top: 5093px;
+}
+#CYBERTOWN_dq {
+    left: 103px;
+    top: 5184px;
+    position: absolute;
+    overflow: visible;
+    width: 247px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(107,172,229,1);
+}
+#Rectngulo_45 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_45 {
+    position: absolute;
+    overflow: visible;
+    width: 120px;
+    height: 30px;
+    left: 1158px;
+    top: 5196px;
+}
+#Ver_mas_ds {
+    left: 1185px;
+    top: 5199px;
+    position: absolute;
+    overflow: visible;
+    width: 68px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Cambio_de_pantalla {
+    left: 981px;
+    top: 5450px;
+    position: absolute;
+    overflow: visible;
+    width: 183px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+#Cambios_de_pantalla_para_cualq {
+    left: 981px;
+    top: 5487px;
+    position: absolute;
+    overflow: visible;
+    width: 298px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Mantenimiento_de_equipo__de_co {
+    left: 985px;
+    top: 5724px;
+    position: absolute;
+    overflow: visible;
+    width: 252px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+#Soporte_tcnico_y_mantenimiento {
+    left: 981px;
+    top: 5788px;
+    position: absolute;
+    overflow: visible;
+    width: 289px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Reparaciones_al_mejor_precio {
+    left: 103px;
+    top: 5741px;
+    position: absolute;
+    overflow: visible;
+    width: 416px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(0,0,0,1);
+}
+#Nuestros_tcnicos_son_los_ms_pr_dy {
+    left: 105px;
+    top: 5801px;
+    position: absolute;
+    overflow: visible;
+    width: 741px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+#Rectngulo_42 {
+    fill: rgba(135,135,135,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_42 {
+    position: absolute;
+    overflow: visible;
+    width: 1162px;
+    height: 1px;
+    left: 103px;
+    top: 5971px;
+}
+#Rectngulo_43 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_43 {
+    position: absolute;
+    overflow: visible;
+    width: 370px;
+    height: 35px;
+    left: 665px;
+    top: 6002px;
+}
+#Rectngulo_44 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_44 {
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    height: 35px;
+    left: 1085px;
+    top: 6002px;
+}
+#Correo {
+    opacity: 0.4;
+    left: 672px;
+    top: 6009px;
+    position: absolute;
+    overflow: visible;
+    width: 70px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+#Suscribete {
+    left: 1126px;
+    top: 6006px;
+    position: absolute;
+    overflow: visible;
+    width: 98px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+#Rectngulo_51 {
+    fill: rgba(253,240,233,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_51 {
+    position: absolute;
+    overflow: visible;
+    width: 1366px;
+    height: 608px;
+    left: 0px;
+    top: 6962px;
+}
+#Diseo_sin_ttulo_1 {
+    position: absolute;
+    width: 341px;
+    height: 455px;
+    left: 111px;
+    top: 580px;
+    overflow: visible;
+}
+#Huawei_Y9s {
+    left: 101px;
+    top: 1005px;
+    position: absolute;
+    overflow: visible;
+    width: 92px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(112,112,112,1);
+}
+#Rectngulo_6 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_6 {
+    position: absolute;
+    overflow: visible;
+    width: 67px;
+    height: 18px;
+    left: 101px;
+    top: 1029px;
+}
+#Ver_mas_d {
+    left: 109px;
+    top: 1028px;
+    position: absolute;
+    overflow: visible;
+    width: 53px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(112,112,112,1);
+}
+#Diseo_sin_ttulo_2 {
+    position: absolute;
+    width: 341px;
+    height: 455px;
+    left: 513px;
+    top: 574px;
+    overflow: visible;
+}
+#IPhone_13_Pro_Max {
+    left: 498px;
+    top: 1005px;
+    position: absolute;
+    overflow: visible;
+    width: 151px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(112,112,112,1);
+}
+#Rectngulo_8_eb {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_8_eb {
+    position: absolute;
+    overflow: visible;
+    width: 67px;
+    height: 18px;
+    left: 498px;
+    top: 1029px;
+}
+#Ver_mas_ec {
+    left: 506px;
+    top: 1028px;
+    position: absolute;
+    overflow: visible;
+    width: 53px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(112,112,112,1);
+}
+#Diseo_sin_ttulo {
+    position: absolute;
+    width: 341px;
+    height: 455px;
+    left: 915px;
+    top: 587px;
+    overflow: visible;
+}
+#Xiaomi_Poco_X3_Pro {
+    left: 900px;
+    top: 1005px;
+    position: absolute;
+    overflow: visible;
+    width: 156px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(112,112,112,1);
+}
+#Rectngulo_10 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_10 {
+    position: absolute;
+    overflow: visible;
+    width: 67px;
+    height: 18px;
+    left: 900px;
+    top: 1029px;
+}
+#Ver_mas_eg {
+    left: 907px;
+    top: 1028px;
+    position: absolute;
+    overflow: visible;
+    width: 53px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(112,112,112,1);
+}
+#curso-de-reparacion-de-celular {
+    position: absolute;
+    width: 645.481px;
+    height: 429.5px;
+    left: 105px;
+    top: 5291px;
+    overflow: visible;
+}
+#cuanto-cuesta-cambiar-pantalla {
+    position: absolute;
+    width: 297px;
+    height: 149px;
+    left: 981px;
+    top: 5291px;
+    overflow: visible;
+}
+#mantenimiento-de-computadoras- {
+    position: absolute;
+    width: 297px;
+    height: 149px;
+    left: 981px;
+    top: 5565px;
+    overflow: visible;
+}
+#Elipse_4 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 122px;
+    top: 1857px;
+    overflow: visible;
+}
+#n_39160 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 665px;
+    top: 1857px;
+    overflow: visible;
+}
+#Rectngulo_23_em {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_23_em {
+    position: absolute;
+    overflow: visible;
+    width: 604px;
+    height: 621px;
+    left: 103px;
+    top: 6244px;
+}
+#Rectngulo_24_en {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_24_en {
+    position: absolute;
+    overflow: visible;
+    width: 500px;
+    height: 40px;
+    left: 149px;
+    top: 6327px;
+}
+#Rectngulo_25 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_25 {
+    position: absolute;
+    overflow: visible;
+    width: 500px;
+    height: 40px;
+    left: 152px;
+    top: 6397px;
+}
+#Rectngulo_26 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_26 {
+    position: absolute;
+    overflow: visible;
+    width: 500px;
+    height: 272px;
+    left: 149px;
+    top: 6465px;
+}
+#Ponerse_en_contacto {
+    left: 152px;
+    top: 6267px;
+    position: absolute;
+    overflow: visible;
+    width: 287px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(0,0,0,1);
+}
+#Correo_er {
+    opacity: 0.5;
+    left: 154px;
+    top: 6333px;
+    position: absolute;
+    overflow: visible;
+    width: 70px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+#Mensaje_ {
+    opacity: 0.5;
+    left: 154px;
+    top: 6465px;
+    position: absolute;
+    overflow: visible;
+    width: 90px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+#Telefono {
+    opacity: 0.5;
+    left: 154px;
+    top: 6401px;
+    position: absolute;
+    overflow: visible;
+    width: 88px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+#Rectngulo_27 {
+    fill: rgba(122,179,243,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_27 {
+    position: absolute;
+    overflow: visible;
+    width: 150px;
+    height: 39px;
+    left: 499px;
+    top: 6765px;
+}
+#Enviar {
+    left: 545px;
+    top: 6771px;
+    position: absolute;
+    overflow: visible;
+    width: 59px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+#CYBERTOWN_ew {
+    left: 753px;
+    top: 6241px;
+    position: absolute;
+    overflow: visible;
+    width: 124px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(107,172,229,1);
+}
+#Contctanos_aqu_ {
+    left: 750px;
+    top: 6278px;
+    position: absolute;
+    overflow: visible;
+    width: 254px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#Llmanos_escrbenos_o_djanos_tus {
+    left: 750px;
+    top: 6328px;
+    position: absolute;
+    overflow: visible;
+    width: 569px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#Col_Milagro_Calle_Paraguay_MZ_ {
+    left: 790px;
+    top: 6540px;
+    position: absolute;
+    overflow: visible;
+    width: 428px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(255,255,255,1);
+}
+#n_2_9981212144 {
+    left: 790px;
+    top: 6590px;
+    position: absolute;
+    overflow: visible;
+    width: 174px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(255,255,255,1);
+}
+#Cybertowngmailcom {
+    left: 790px;
+    top: 6640px;
+    position: absolute;
+    overflow: visible;
+    width: 244px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(255,255,255,1);
+}
+#marcador-de-posicion {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 750px;
+    top: 6540px;
+    overflow: visible;
+}
+#llamada-telefonica {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 750px;
+    top: 6590px;
+    overflow: visible;
+}
+#correo-electronico {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 750px;
+    top: 6640px;
+    overflow: visible;
+}
+#Rectngulo_28 {
+    fill: rgba(107,172,229,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_28 {
+    position: absolute;
+    overflow: visible;
+    width: 160px;
+    height: 30px;
+    left: 103px;
+    top: 7276px;
+}
+#Contactanos_e {
+    left: 125px;
+    top: 7276px;
+    position: absolute;
+    overflow: visible;
+    width: 118px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+#CYBERTOWN_e {
+    left: 103px;
+    top: 7063px;
+    position: absolute;
+    overflow: visible;
+    width: 124px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(107,172,229,1);
+}
+#Acude_a_nuestra_sucursal_por_t {
+    left: 103px;
+    top: 7160px;
+    position: absolute;
+    overflow: visible;
+    width: 480px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+#Ponte_en_contacto {
+    left: 103px;
+    top: 7100px;
+    position: absolute;
+    overflow: visible;
+    width: 257px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(0,0,0,1);
+}
+#Captura_de_pantalla_2022-03-01_fa {
+    position: absolute;
+    width: 598px;
+    height: 569px;
+    left: 683px;
+    top: 6993px;
+    overflow: visible;
+}
+#Diseo_sin_ttulo_5 {
+    position: absolute;
+    width: 273px;
+    height: 204px;
+    left: 273px;
+    top: 7570px;
+    overflow: visible;
+}
+#Diseo_sin_ttulo_4 {
+    position: absolute;
+    width: 273px;
+    height: 204px;
+    left: 0px;
+    top: 7570px;
+    overflow: visible;
+}
+#Diseo_sin_ttulo_3 {
+    position: absolute;
+    width: 273px;
+    height: 204px;
+    left: 547px;
+    top: 7570px;
+    overflow: visible;
+}
+#Diseo_sin_ttulo_7 {
+    position: absolute;
+    width: 273px;
+    height: 204px;
+    left: 1093px;
+    top: 7570px;
+    overflow: visible;
+}
+#Diseo_sin_ttulo_6 {
+    position: absolute;
+    width: 273px;
+    height: 204px;
+    left: 820px;
+    top: 7570px;
+    overflow: visible;
+}
+#Grupo_2 {
+    position: absolute;
+    width: 838px;
+    height: 247px;
+    left: 33px;
+    top: 7834px;
+    overflow: visible;
+}
+#CYBERTOWN_fh {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 154px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(107,172,229,1);
+}
+#Menu {
+    left: 377px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 69px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(107,172,229,1);
+}
+#Servicio {
+    left: 708px;
+    top: 1px;
+    position: absolute;
+    overflow: visible;
+    width: 95px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(107,172,229,1);
+}
+#Inicio__Servicios__Artculos__C {
+    left: 377px;
+    top: 58px;
+    position: absolute;
+    overflow: visible;
+    width: 86px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#Cotizaciones__Reparaciones_ {
+    left: 708px;
+    top: 58px;
+    position: absolute;
+    overflow: visible;
+    width: 131px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#Grupo_3 {
+    position: absolute;
+    width: 1286px;
+    height: 48px;
+    left: 36px;
+    top: 8127px;
+    overflow: visible;
+}
+#Rectngulo_22_fn {
+    fill: rgba(57,57,57,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectngulo_22_fn {
+    position: absolute;
+    overflow: visible;
+    width: 1285px;
+    height: 4px;
+    left: 1px;
+    top: 0px;
+}
+#n_CYBERTOWN_ {
+    left: 0px;
+    top: 21px;
+    position: absolute;
+    overflow: visible;
+    width: 152px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#Terms_of_Use {
+    left: 1005px;
+    top: 21px;
+    position: absolute;
+    overflow: visible;
+    width: 122px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#Privacy_Policy {
+    left: 1156px;
+    top: 21px;
+    position: absolute;
+    overflow: visible;
+    width: 130px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#whatsapp {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1035px;
+    top: 7834px;
+    overflow: visible;
+}
+#instagram {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1159px;
+    top: 7834px;
+    overflow: visible;
+}
+#facebook {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1097px;
+    top: 7834px;
+    overflow: visible;
+}
